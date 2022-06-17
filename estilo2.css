@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.twitterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.twitterLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.twitterLogo img{
+    width: 70%;
+}
+
+.twitterLogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 20%;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 3px;
+}
+
+.login > h1{
+    color: rgb(44, 186, 234)
+}
+
+.login .item{
+    background-color: rgb(165, 162, 162);
+    margin-bottom: 2px;
+    height: 25px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px
+   
+}
+
+.login > a{
+    background-color: lightblue ;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 50px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.criarConta > p{
+    margin-bottom: 5px;
+}
+.criarConta > a{
+    background-color: lightblue ;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 50px;
+    align-items: center;
+    margin: auto;
+}
