@@ -90,3 +90,34 @@ body{
     align-items: center;
     margin: auto;
 }
+
+@media(max-width: 1024px){
+    .twitterContainer{
+        width: 90%;
+    }
+    .twitterLogo img{
+        width: 50%;
+    }
+}
+
+@media(max-width: 650px){
+    .twitterContainer{
+        width: 90%;
+        
+    }
+
+    .twitterLogo img{
+        width: 90%;
+    }
+
+    .login .item{
+        
+        height: 45px;
+      
+       
+    }
+
+   
+
+
+}
